@@ -20,18 +20,6 @@ body{
 	transition: all 1s;
 }
 
-.caja{
-	margin: 150px 15px;
-	width: 150px;
-	height: 150px;
-	background: crimson;
-	color: #fff;
-	font-size: 40px;
-	text-align: center;
-	line-height: 150px;
-	transition: all 1s;
-}
-
 .triangulo{
 	margin: 150px 15px;
 	width: 0;
@@ -47,12 +35,65 @@ body{
 	transition: all 1s;
 }
 
-.caja:nth-child(3){
-	background: purple;
-	transform:scaleX(2)	
+.trapecio{
+	margin: 150px 15px;
+	width: 250px;
+	height: 0;
+	border-right: 60px solid transparent;
+	border-left: 60px solid transparent;
+	border-bottom: 100px solid #428bca;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	line-height: 100px;
+	transition: all 1s;
+}
+
+.circulo{
+	margin: 150px 15px;
+	width: 100px;
+	height: 100;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	background:#5cb85c;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	line-height: 100px;
+	transition: all 1s;
+}
+
+.trapecio:nth-child(1){
+}
+
+
+.trapecio:nth-child(1):hover{
+	transform:translate(50px, 50px)
 
 }
 
-.caja:nth-child(3):hover{
+.rect:nth-child(2){	
+}
 
+
+.rect:nth-child(2):hover{
+transform:rotate(45deg);
+
+}
+
+.triangulo:nth-child(3){
+}
+
+
+.triangulo:nth-child(3):hover{
+	transform:scaleX(2)
+}
+
+.circulo:nth-child(4){
+}
+
+
+.circulo:nth-child(4):hover{
+	transform:skew(25deg, 50deg)
 }
