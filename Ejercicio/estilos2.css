@@ -1,0 +1,58 @@
+body{
+	margin:0;
+	background:#ddd;
+}
+
+.contenedor{
+	display: flex;
+	justify-content: center;
+}
+
+.rect{
+	margin: 150px 15px;
+	width: 150px;
+	height: 180px;
+	background: #428bca;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	line-height: 150px;
+	transition: all 1s;
+}
+
+.caja{
+	margin: 150px 15px;
+	width: 150px;
+	height: 150px;
+	background: crimson;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	line-height: 150px;
+	transition: all 1s;
+}
+
+.triangulo{
+	margin: 150px 15px;
+	width: 0;
+	height: 0;
+	border-right: 90px solid transparent;
+	border-top: 90px solid transparent;
+	border-left: 90px solid #f0ad4e;
+	border-bottom: 90px solid #f0ad4e;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	line-height: 100px;
+	transition: all 1s;
+}
+
+.caja:nth-child(3){
+	background: purple;
+	transform:scaleX(2)	
+
+}
+
+.caja:nth-child(3):hover{
+
+}
